@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+	<title>template</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 150px;fill: #000000;font-weight: 700;font-style: italic;font-family: "GentiumBasic-BoldItalic", "Gentium Basic" } 
+		.t1 { font-size: 377px;fill: #000000;font-weight: 700;font-style: italic;font-family: "GentiumBasic-BoldItalic", "Gentium Basic" } 
+	</style>
+	<text id=" T" style="transform: matrix(1,0,0,1,347.167,385.58)" >
+		<tspan x="0" y="180" class="t0">T</tspan><tspan  y="180" class="t0">
+</tspan>
+	</text>
+	<text id="oco" style="transform: matrix(1,0,0,1,455,567.5)" >
+		<tspan x="0" y="0" class="t0">O</tspan><tspan  y="0" class="t0">C</tspan><tspan  y="0" class="t0">O
+</tspan>
+	</text>
+	<text id="C" style="transform: matrix(1,0,0,1,369,628)" >
+		<tspan x="-95.7" y="0" class="t1">C</tspan><tspan  y="0" class="t1">
+</tspan>
+	</text>
+</svg>
