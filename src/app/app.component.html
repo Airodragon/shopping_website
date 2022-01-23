@@ -1,4 +1,14 @@
-<app-navbar></app-navbar>
-<h3>Order List</h3>
-<app-list-order></app-list-order>
-<router-outlet></router-outlet>
+<!-- <app-navbar></app-navbar> -->
+<app-header></app-header>
+<div class="container">
+<div class="row">
+    <div class="col-lg-3">
+    <app-sidebar></app-sidebar>        
+    </div>
+    <div class="col-lg-9">
+    <router-outlet></router-outlet>
+    
+    </div>
+</div>
+</div>
+<app-footer></app-footer>
