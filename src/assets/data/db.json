@@ -8,6 +8,13 @@
       { "id": 1, "body": "some comment", "postId": 1 },
       { "id": 2, "body": "some comment", "postId": 1 }
     ],
+    "categories": [
+      { "id": 1, "categoryName": "Men's"},
+      { "id": 2, "categoryName": "Women's"},
+      { "id": 3, "categoryName": "Baby & Kids"},
+      { "id": 4, "categoryName": "Home & Furniture"},
+      { "id": 5, "categoryName": "Electronics"}
+    ],
     "profile": { 
         "name": "typicode" 
     }
