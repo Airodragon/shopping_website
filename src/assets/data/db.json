@@ -1,12 +1,30 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" },
-      { "id": 2, "title": "json-server", "author": "typicode" },
-      { "id": 3, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
+    "product":[
+      { "id" : 1,
+        "productName" : "Party wear",
+        "category_id" : "5",
+        "description" : "this is a shirt",
+        "price" : "300",
+        "is_available" : "true",
+        "productImg":"https://localhost:4200/assets/s1.jpg",
+        "rating": 4,
+        "review":150,
+        "vendor_name":"vendor1",
+        "waranty":"15 days"
+
+      },
+      { "id" : 2,
+        "productName" : "Party wear female",
+        "category_id" : "1",
+        "description" : "this is a Party wear",
+        "price" : "800",
+        "is_available" : "true",
+        "productImg":"https://localhost:4200/assets/s2.jpg",
+        "rating": 5,
+        "review":20,
+        "vendor_name":"vendor3",
+        "waranty":"7 days"
+      }
     ],
     "categories": [
       { "id": 1, "categoryName": "Men's"},

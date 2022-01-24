@@ -16,8 +16,8 @@ export class ProductService {
     return this.httpClint.post<Product>(baseUrl, productBody); 
   }
   
-  viewProduct(productId: Observable<Product>){
-    const baseUrl = 'http://localhost:3000/products/'+productId;
+  viewProduct(){
+    const baseUrl = 'http://localhost:3000/products/';
     return this.httpClint.get<Product>(baseUrl);
   }
   
@@ -44,4 +44,5 @@ export class ProductService {
     const categoryUrl = 'http://localhost:3000/categories';
     return this.httpClint.get<Category>(categoryUrl);
   }
+
 }
