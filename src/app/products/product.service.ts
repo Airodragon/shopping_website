@@ -10,13 +10,13 @@ import { Product } from './product';
 export class ProductService {
 
   constructor(private httpClint: HttpClient) { }
-  
+
   createProduct(productBody: Observable<Product>){
     const baseUrl = 'http://localhost:3000/products';
     return this.httpClint.post<Product>(baseUrl, productBody); 
   }
   
-  viewProduct(){
+  viewProduct():Observable<Product>{
     const baseUrl = 'http://localhost:3000/products/';
     return this.httpClint.get<Product>(baseUrl);
   }
